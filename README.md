@@ -4,7 +4,7 @@ This is a hot reload tooling for go
 ## Usage
 
  First need to have a json file in the root of your project. Name it as a `hotpocket.json`. It Should look somewhat like this
-```json
+```
 {
 	"Command":"code", // here you specify command you wnat to execute on each reload
 	"Arguments":[".."], // here you specify the arguments for that command
